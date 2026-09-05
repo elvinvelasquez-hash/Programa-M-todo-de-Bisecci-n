@@ -11,6 +11,17 @@ st.markdown("**Cuenta:** 20251031851")
 st.info(
     "Esta aplicación implementa el método de bisección para encontrar una "
     "aproximación a la raíz de una función no lineal f(x) = 0."
+    "Descripcion: El metodo de biseccion es un metodo cerrado o de intervalos que nos permite encontrar"
+    "una aproximacion a la raiz de una ecuacion no lineal f(x) = 0. se inicia de un intervalo (a,b) en el"
+    "cual la funcion cambia de signo, es decir f(a)*f(b)< 0, lo que garantiza (por el teorema del valor intermedio)"
+    "que existe al menos una raiz dentro de dicho intervalo."
+    "en cada iteracion se calcula el punto medio: Xn = (a+b)/2"
+    "y se evalua f(Xn), dependiendo del signo de f(a)*f(Xn):"
+    "si f(a)*f(Xn) < 0 (la raiz esta en (a,Xn) entonces b=Xn)"
+    "si f(a)*f(Xn) > 0 (la raiz esta en (Xn,b) entonces a=Xn)"
+    "si f(a)*f(Xn) = 0 ( Xn es la raiz exacta)"
+    "El proceso se repite hasta que el error relativo aproximado sea menor que la tolerancia"
+    "establecida por el usuario O hasta alcanzar el número máximo de interacciones permitido"
 )
 
 
