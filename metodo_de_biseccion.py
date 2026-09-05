@@ -8,6 +8,9 @@ st.set_page_config(page_title="Método de Bisección", layout="centered")
 st.title("MÉTODO DE BISECCIÓN")
 st.markdown("**Estudiante:** Elvin Fernando Velasquez Medina")
 st.markdown("**Cuenta:** 20251031851")
+st.markdown("**Clase:** Metodos Numericos")
+st.markdown("**Licenciado:** Sergio Zúniga")
+st.markdown("**Facultad de:** Ingenieria")
 st.info(
     "Esta aplicación implementa el método de bisección para encontrar una "
     "aproximación a la raíz de una función no lineal f(x) = 0."
